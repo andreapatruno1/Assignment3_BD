@@ -1,0 +1,30 @@
+date: 2026-11-08T18:05:47Z
+== CPU ==
+CPU(s):                                  2
+Model name:                              12th Gen Intel(R) Core(TM) i7-1255U
+Thread(s) per core:                      2
+Core(s) per socket:                      1
+Socket(s):                               1
+Hypervisor vendor:                       Microsoft
+L1d cache:                               48 KiB (1 instance)
+L2 cache:                                1.3 MiB (1 instance)
+L3 cache:                                12 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0,1
+nproc (execution contexts available to this process): 2
+== memory ==
+               total        used        free      shared  buff/cache   available
+Mem:            3915         148        2903           0         863        3555
+Swap:              0           0           0
+== OS ==
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+6.8.0-138-generic
+== C ==
+gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+flags: -O2 -fno-tree-vectorize -fopenmp -std=c11 -Wall -lm
+OpenMP: libgomp, _OPENMP = 201511
+OMP settings: OMP_NUM_THREADS=p, OMP_DYNAMIC=false, OMP_PROC_BIND/OMP_PLACES unset (no affinity), OMP_WAIT_POLICY unset (libgomp default), schedule(static)
+Numerical libraries in the benchmark process: none (no BLAS, no internal threads besides the OpenMP team)
+== Python (inputs and analysis only) ==
+Python 3.10.12
+numpy 2.2.6 matplotlib 3.10.9
